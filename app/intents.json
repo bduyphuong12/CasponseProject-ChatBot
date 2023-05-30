@@ -1,0 +1,310 @@
+{
+  "intents": [
+    {
+      "tag": "lời chào",
+      "patterns": ["Hi", "Chào", "Chào bạn", "Hello", "Rất vui được gặp bạn"],
+      "responses": [
+        "Hello",
+        "Chào mừng bạn đến với website của chúng tôi, tôi có thể giúp gì cho bạn?",
+        "Chào bạn, tôi là Chatbot của website, tôi có thể giúp bạn những gì đây, vui lòng đặt câu hỏi của bạn.",
+        "Chúc bạn có một ngày vui vẻ, tôi có thể giúp gì cho bạn?",
+        "Rất vui được gặp bạn, tôi có thể giúp gì cho bạn?",
+        "Rất vui được gặp bạn, nếu bạn muốn tìm bất động sản phù hợp, tôi có thể giúp bạn."
+      ]
+    },
+    {
+      "tag": "tạm biệt",
+      "patterns": ["Tạm biệt", "Hẹn gặp lại", "Goodbye"],
+      "responses": [
+        "Cám ơn vì đã sử dụng website của chúng tôi, hẹn gặp lại bạn",
+        "Cám ơn, hẹn gặp lại",
+        "Tạm biệt, cám ơn đã sử dụng website, hẹn gặp lại."
+      ]
+    },
+    {
+      "tag": "cám ơn",
+      "patterns": ["Cám ơn", "Thật hữu ích", "Cám ơn vì thông tin của bạn"],
+      "responses": [
+        "Không có gì, tôi vui vì có thể giúp bạn.",
+        "Không có gì, đó là vinh hạnh của tôi.",
+        "Hân hạnh được giúp bạn."
+      ]
+    },
+    {
+      "tag": "website",
+      "patterns": [
+        "Website có bán trực tiếp bất động sản không?",
+        "Website của bạn cho thuê những khu vực nào?"
+      ],
+      "responses": [
+        "Website cung cấp môi trường để người mua và người bán có thể nhắn tin với nhau, trao đổi về bất động sản đó.s",
+        "Chúng tôi có các bất động sản ở các quận của Đà Nẵng như Hải Châu, Cẩm Lệ, Ngũ Hành Sơn, Sơn Trà, Liên Chiểu, Thanh Khê và Hòa Vang."
+      ]
+    },
+    {
+      "tag": "khu vực",
+      "patterns": [
+        "Tôi muốn xem những bất động sản ở khu vực Liên Chiểu",
+        "Tôi muốn xem những bất động sản ở khu vực Ngũ Hành Sơn",
+        "Tôi muốn xem những bất động sản ở khu vực Sơn Trà",
+        "Tôi muốn xem những bất động sản ở khu vực Thanh Khê",
+        "Tôi muốn xem những bất động sản ở khu vực Cẩm Lệ",
+        "Tôi muốn xem những bất động sản ở khu vực Hải Châu",
+        "Tôi muốn xem những bất động sản ở khu vực Hòa Vang",
+        "Tôi muốn xem những bất động sản ở trung tâm thành phố",
+        "Tôi muốn xem những bất động sản ở rìa thành phố"
+      ],
+      "responses": [
+        "Bạn có thể tìm kiếm bằng cách điền Liên Chiểu ở trang chủ của website",
+        "Bạn có thể tìm kiếm bằng cách điền Ngũ Hành Sơn ở trang chủ của website",
+        "Bạn có thể tìm kiếm bằng cách điền Sơn Trà ở trang chủ của website",
+        "Bạn có thể tìm kiếm bằng cách điền Thanh Khê ở trang chủ của website",
+        "Bạn có thể tìm kiếm bằng cách điền Cẩm Lệ ở trang chủ của website",
+        "Bạn có thể tìm kiếm bằng cách điền Hòa Vang ở trang chủ của website",
+        "Bạn có thể tìm kiếm bằng cách điền Hải Châu ở trang chủ của website",
+        "Có vài bất động sản ở trung tâm thành phố, bạn có thể tìm kiếm ở các quận như Hải Châu và Thanh Khê có thể có những bất động sản phù hợp cho bạn.",
+        "Có vài bất động sản là đất nền hoặc nhà riêng ở rìa thành phố, bạn có thể tìm kiếm ở các quận Hòa Vang, Liên Chiểu có thể có những bất động sản phù hợp cho bạn."
+      ]
+    },
+    {
+      "tag": "loại bất động sản",
+      "patterns": [
+        "Những loại bất động sản mà website đang có là gì?",
+        "Tôi muốn tìm những bất động sản là nhà riêng",
+        "Tôi muốn tìm những bất động sản là căn hộ",
+        "Tôi muốn tìm những bất động sản là tòa nhà",
+        "Tôi muốn tìm những bất động sản là đất nền",
+        "Tôi muốn tìm những bất động sản là dãy trọ",
+        "Tôi muốn tìm những bất động sản là căn hộ chung cư",
+        "Tôi muốn tìm những bất động sản là biệt thự"
+      ],
+      "responses": [
+        "Website đang cho thê các loại bất động sản như: nhà riêng, căn hộ, tòa nhà, đất nền, dãy trọ.",
+        "Bạn có thể tìm kiếm bằng cách chọn loại bất động sản là nhà riêng ở trang chủ của website ",
+        "Bạn có thể tìm kiếm bằng cách chọn loại bất động sản là căn hộ ở trang chủ của website ",
+        "Bạn có thể tìm kiếm bằng cách chọn loại bất động sản là tòa nhà ở trang chủ của website ",
+        "Bạn có thể tìm kiếm bằng cách chọn loại bất động sản là đất nền ở trang chủ của website ",
+        "Bạn có thể tìm kiếm bằng cách chọn loại bất động sản là dãy trọ ở trang chủ của website ",
+        "Bạn có thể tìm kiếm bằng cách chọn loại bất động sản là căn hộ chung cư ở trang chủ của website ",
+        "Bạn có thể tìm kiếm bằng cách chọn loại bất động sản là biệt thự ở trang chủ của website "
+      ]
+    },
+    {
+      "tag": "nhà riêng",
+      "patterns": [
+        "Tôi muốn tìm nhà riêng ở Liên Chiểu.",
+        "Tôi muốn tìm nhà riêng ở Ngũ Hành Sơn.",
+        "Tôi muốn tìm nhà riêng ở Cẩm Lệ.",
+        "Tôi muốn tìm nhà riêng ở Hải Châu.",
+        "Tôi muốn tìm nhà riêng ở Sơn Trà.",
+        "Tôi muốn tìm nhà riêng ở Thanh Khê.",
+        "Tôi muốn tìm nhà riêng ở Hòa Vang."
+      ],
+      "responses": [
+        "Có vài bất động sản là nhà riêng ở các phường Hòa Minh, Hòa Khánh Nam, Hòa Khánh Bắc và Hòa Hiệp Nam ở quận Liên Chiểu, bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở các đường Dương Đức Hiền, Phú Lộc 1, Tô Hiệu, Phùng Chí Kiên, Ngô Thì Nhậm ở phường Hòa Minh, bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở các đường Hoàng Văn Thái, Mẹ Suốt ở phường Hòa Khánh Nam, bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở các đường Âu Cơ, Nguyễn Lương Bằng, Khánh An 2 ở phường Hòa Khánh Bắc, bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở các đường Hòa Minh 9 ở phường Hòa Hiệp Nam, bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+
+        "Có vài bất động sản là nhà riêng ở các phường Mỹ An, Hòa Quý, Hòa Hải ở quận Ngũ Hành Sơn bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở đường An Thượng 9 ở phường Mỹ An bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở đường Cao Hồng Lãnh ở phường Hòa Quý bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+
+        "Có vài bất động sản là nhà riêng ở các phường Khuê Trung, Hòa An, Hòa Xuân ở quận Cẩm Lệ bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở các đường Lê Đại Hành, Phan Đăng Lưu, Phạm Phú Triết ở phường Khuê Trung bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở các đường Tôn Đản, Chu Mạnh Trinh ở phường Hòa An bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở các đường Thanh Lương 18, Trần Nam Trung, Hoàng Thế Thiện, Hoàng Đình Ái ở phường Hòa Xuân bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+
+        "Có vài bất động sản là nhà riêng ở các phường Hòa Thuận Đông, Thạch Thang, Bình Thuận, Hòa Thuận Tây, Hòa Cường Bắc, Thuận Phước, Hòa Cường Nam ở quận Hải Châu bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở các đường Hoàng Diệu, Núi Thành, Trưng Nữ Vương ở phường Hòa Thuận Đông bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở các đường Hải Phòng, Nguyễn Du, Lý Tự Trọng ở phường Khuê Trung bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở đường Ông Ích Khiêm, ở phường Bình Thuận bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở các đường Lê Cơ, Tiểu La, Núi Thành ở phường Hòa Cường Bắc bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở các đường Đinh Công Tráng, Hoàng Tích Trí, Lão Bạng ở phường Thuận Phước bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+
+        "Có vài bất động sản là nhà riêng ở các phường Nại Hiên Đông ở quận Sơn Trà bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở các đường Lê Cảnh Tuân ở phường Nại Hiên Đông bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+
+        "Có vài bất động sản là nhà riêng ở các phường Thanh Khê Đông, Vĩnh Trung, Hòa Khê, Tam Thuận, Chính Gián, Thạc Gián, An Khê, Xuân Hà ở quận Thanh Khê bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở các đường Trần Cao Vân, Hà Huy Tập ở phường Thanh Khê Đông bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở các đường Hùng Vương, Lê Đình Lý, Đỗ Quang, Bàu Hạc 1 ở phường Vĩnh Trung bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở các đường Trần Xuân Lê, Nguyễn Phước Nguyên, Cù Chính Lan, Hà Huy Tập ở phường Hòa Khê bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở đường Trần Cao Vân ở phường Tam Thuận bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở các đường Điện Biên Phủ, Hải Phòng, Lê Độ ở phường Chính Gián bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có bất động sản là nhà riêng ở đường Lý Thái Tổ ở phường Thạc Gián bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là nhà riêng ở đường Trần Cao Vân ở phường Xuân Hà bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có bất động sản là nhà riêng ở xã Hòa Phú thuộc huyện Hòa Vang bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn"
+      ]
+    },
+    {
+      "tag": "đất nền",
+      "patterns": [
+        "Tôi muốn tìm đất nền ở Liên Chiểu.",
+        "Tôi muốn tìm đất nền ở Ngũ Hành Sơn.",
+        "Tôi muốn tìm đất nền ở Cẩm Lệ.",
+        "Tôi muốn tìm đất nền ở Hải Châu.",
+        "Tôi muốn tìm đất nền ở Sơn Trà.",
+        "Tôi muốn tìm đất nền ở Thanh Khê.",
+        "Tôi muốn tìm đất nền ở Hòa Vang."
+      ],
+      "responses": [
+        "Bất động sản đất nền đa số nằm ở các khu vực rìa trung tâm thành phố như Liên Chiểu, Cẩm Lệ, Hòa Vang bạn có thể tìm ở đó",
+        "Có vài bất động sản là đất nền ở các phường Hòa Khánh Nam, Hòa Khánh Bắc, Hòa Hiệp Nam, Hòa Minh, Hòa Hiệp Bắc ở quận Liên Chiểu, bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là đất nền ở các đường Hoàng Văn Thái ở phường Hòa Khánh Nam, bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là đất nền ở các đường Phú Xuân, Hòa Minh 17, Ngô Thì Nhậm ở phường Hòa Minh, bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là đất nền ở các đường Đặng Chiêm, Thanh Vinh, Khánh An 2 ở phường Hòa Minh, bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là đất nền ở KĐT Lakes Side Palace ở phường Hòa Hiệp Nam, bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+
+        "Có vài bất động sản là đất nền ở các phường Khuê Mỹ, Hòa Quý, Hòa Hải ở quận Ngũ Hành Sơn bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là đất nền ở Naman Homes Đà Nẵng ở quận Ngũ Hành Sơn bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là đất nền ở KĐT Hòa Quý City ở quận Ngũ Hành Sơn bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là đất nền ở đường Hoàng Bình Chính, Đông Hải 1, Phú Mỹ Án ở phường Hòa Hải bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là đất nền ở đường Bá Giang 6, Mai Đăng Chơn ở phường Hòa Quý bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+
+        "Có vài bất động sản là đất nền ở các phường Hòa Xuân, Hòa Phát, Hòa An, Hòa Thọ Đông ở quận Cẩm Lệ bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là đất nền ở các đường Bùi Vịnh, Phước Tường 3 ở phường Hòa Phát bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là đất nền ở các đường Kiều Sơn Đen, Thái Văn Lung ở phường Hòa Xuân bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là đất nền ở các đường Quách Xuân Đương, Lê Thạch, Nguyễn Đức Thiệu ở phường Hòa Phát bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là đất nền ở đường Nguyễn Phước Tần ở phường Hòa Thọ Đông bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+
+        "Có vài bất động sản là đất nền ở các phường Hòa Bắc, Hòa Tiến, Hòa Phong, Hòa Châu ở quận Hòa Vang bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là đất nền ở đường 601 ở phường Hòa Bắc bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là đất nền ở đường 605, Dương Sơn ở phường Hòa Tiến bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là đất nền ở đường quốc lộ 14B ở phường Hòa Phong bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+
+        "Có vài bất động sản là đất nền ở các phường An Hải Bắc, Phước Mỹ, Mân Thái ở quận Sơn Trà bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là đất nền ở các đường Dương Trí Trạch, Phó Đức Chính, Phan Bá Vành, Nguyễn Đình Hoàng ở phường An Hải Bắc bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là đất nền ở các đường Nguyễn Văn Thoại ở phường Phước Mỹ bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+
+        "Có vài bất động sản là đất nền ở các phường Hòa Cường Bắc, Hòa Cường Nam, Phường Bình Hiên ở quận Hải Châu bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là đất nền ở Regal Pavillon ở phường Bình Hiên bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có bất động sản là đất nền ở Halla Jade Residence ở phường Hòa Cường Bắc bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có bất động sản là đất nền ở đường Lý Nhân Tông ở phường Hòa Cường Bắc bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+
+        "Có vài bất động sản là đất nền ở các phường An Khê, Vĩnh Trung, Thanh Khê Đông ở quận Thanh Khê bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn"
+      ]
+    },
+    {
+      "tag": "căn hộ",
+      "patterns": [
+        "Tôi muốn tìm căn hộ ở Liên Chiểu.",
+        "Tôi muốn tìm căn hộ ở Ngũ Hành Sơn.",
+        "Tôi muốn tìm căn hộ ở Cẩm Lệ.",
+        "Tôi muốn tìm căn hộ ở Hải Châu.",
+        "Tôi muốn tìm căn hộ ở Sơn Trà.",
+        "Tôi muốn tìm căn hộ ở Thanh Khê.",
+        "Tôi muốn tìm căn hộ ở Hòa Vang."
+      ],
+      "responses": [
+        "Có vài bất động sản là căn hộ ở các phường Hòa Khánh Bắc ở quận Liên Chiểu, bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+
+        "Có vài bất động sản là căn hộ ở phường Hòa Hải, Khuê Mỹ ở quận Ngũ Hành Sơn bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là căn hộ FPT plaza ở đường Võ Quý Huân ở phường Hòa Hải bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là căn hộ FPT plaza 2 ở đường Võ Quý Huân ở phường Hòa Hải bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là căn hộ ở KĐT FPT City 2 ở phường Hòa Hải bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có bất động sản là căn hộ cao cấp hoặc căn hộ ở FPT ở Ngũ Hành Sơn bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là căn hộ The Sang Residence ở phường Khuê Mỹ bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có vài bất động sản là căn hộ One River Villas ở phường Hòa Hải bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+
+        "Có vài bất động sản là căn hộ ở các phường An Hải Bắc, Thọ Quang ở quận Sơn Trà bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có bất động sản là căn hộ Hiyori Garden Tower ở các Võ Văn Kiệt ở phường An Hải Bắc bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+        "Có bất động sản là căn hộ Sơn Trà Ocean ở đường Ngô Quyền ở phường Thọ Quang bạn có thể tìm kiếm những địa điểm đó để tìm ra bất động sản phù hợp cho bạn",
+
+        "Ở Hải Châu tạm thời không có bất động sản là căn hộ, vui lòng tìm ở các quận khác.",
+        "Ở Thanh Khê tạm thời không có bất động sản là căn hộ, vui lòng tìm ở các quận khác.",
+        "Ở Cẩm Lệ tạm thời không có bất động sản là căn hộ, vui lòng tìm ở các quận khác.",
+        "Ở Hòa Vang tạm thời không có bất động sản là căn hộ, vui lòng tìm ở các quận khác."
+      ]
+    },
+    {
+      "tag": "biệt thự",
+      "patterns": [
+        "Tôi muốn tìm biệt thự ở Đà Nẵng.",
+        "Tôi muốn tìm biệt thự ở Ngũ Hành Sơn.",
+        "Tôi muốn tìm biệt thự ở Cẩm Lệ.",
+        "Tôi muốn tìm biệt thự ở Hải Châu.",
+        "Tôi muốn tìm biệt thự ở Sơn Trà.",
+        "Tôi muốn tìm biệt thự ở Thanh Khê.",
+        "Tôi muốn tìm biệt thự ở Sơn Trà."
+      ],
+      "responses": [
+        "Có bất động sản là biệt thự ở quận Ngũ Hành Sơn, bạn có thể tìm kiếm ở những địa điểm đó.",
+        "Có bất động sản là biệt thự ở One River Villas ở Hòa Hải, Ngũ Hành Sơn bạn có thể tìm kiếm ở đó.",
+
+        "Có bất động sản là biệt thự ở phường Hòa Khánh Nam thuộc quận Liên Chiểu, bạn có thể tìm kiếm ở những địa điểm đó.",
+
+        "Có bất động sản là biệt thự ở phường Hòa Khê thuộc quận Thanh Khê, bạn có thể tìm kiếm ở những địa điểm đó.",
+
+        "Có bất động sản là biệt thự ở phường An Hải Bắc và Phước Mỹ thuộc quận Sơn Trà, bạn có thể tìm kiếm ở những địa điểm đó.",
+        "Có bất động sản là biệt thự ở đường Ngô Quyền thuộc phường An Hải Bắc, bạn có thể tìm kiếm ở những địa điểm đó.",
+        "Có bất động sản là biệt thự ở đường Mỹ Khê 4 thuộc phường Phước Mỹ, bạn có thể tìm kiếm ở những địa điểm đó.",
+
+        "Có bất động sản là biệt thự ở phường Hòa Xuân thuộc quận Cẩm Lệ, bạn có thể tìm kiếm ở những địa điểm đó.",
+        "Có bất động sản là biệt thự ở đường Diệp Minh Châu thuộc phường Hòa Xuân, bạn có thể tìm kiếm ở những địa điểm đó."
+      ]
+    },
+    {
+      "tag": "chung cư",
+      "patterns": [
+        "Tôi muốn tìm chung cư ở Đà Nẵng.",
+        "Tôi muốn tìm chung cư ở Ngũ Hành Sơn.",
+        "Tôi muốn tìm chung cư ở Cẩm Lệ.",
+        "Tôi muốn tìm chung cư ở Hải Châu.",
+        "Tôi muốn tìm chung cư ở Sơn Trà.",
+        "Tôi muốn tìm chung cư ở Thanh Khê.",
+        "Tôi muốn tìm chung cư ở Sơn Trà."
+      ],
+      "responses": [
+        "Có bất động sản là chung cư ở đường Âu Cơ thuộc Hòa Khánh Bắc, bạn có thể tìm kiếm ở đó để có bất động sản phù hợp với bạn.",
+        "Có bất động sản là chung cư ori garden ở phường Hòa Hiệp Nam, bạn có thể tìm kiếm ở đó để có bất động sản phù hợp với bạn.",
+        "Ở Hải Châu tạm thời không có bất động sản là chung cư, vui lòng tìm ở các quận khác.",
+        "Ở Thanh Khê tạm thời không có bất động sản là chung cư, vui lòng tìm ở các quận khác.",
+        "Ở Cẩm Lệ tạm thời không có bất động sản là chung cư, vui lòng tìm ở các quận khác.",
+        "Ở Sơn Trà tạm thời không có bất động sản là chung cư, vui lòng tìm ở các quận khác.",
+        "Ở Ngũ Hành Sơn tạm thời không có bất động sản là chung cư, vui lòng tìm ở các quận khác."
+      ]
+    },
+    {
+      "tag": "tòa nhà",
+      "patterns": [
+        "Tôi muốn tìm tòa nhà ở Hòa Vang.",
+        "Tôi muốn tìm tòa nhà ở Ngũ Hành Sơn.",
+        "Tôi muốn tìm tòa nhà ở Cẩm Lệ.",
+        "Tôi muốn tìm tòa nhà ở Hải Châu.",
+        "Tôi muốn tìm tòa nhà ở Sơn Trà.",
+        "Tôi muốn tìm tòa nhà ở Thanh Khê.",
+        "Tôi muốn tìm tòa nhà ở Sơn Trà."
+      ],
+      "responses": [
+        "Ở Liên Chiểu tạm thời không có bất động sản là tòa nhà, vui lòng tìm ở các quận khác.",
+        "Ở Hòa Vang tạm thời không có bất động sản là tòa nhà, vui lòng tìm ở các quận khác.",
+        "Ở Hải Châu tạm thời không có bất động sản là tòa nhà, vui lòng tìm ở các quận khác.",
+        "Ở Thanh Khê tạm thời không có bất động sản là tòa nhà, vui lòng tìm ở các quận khác.",
+        "Ở Cẩm Lệ tạm thời không có bất động sản là tòa nhà, vui lòng tìm ở các quận khác.",
+        "Có bất động sản là tòa nhà ở các phường Nại Hiên Đông và An Hải Bắc ở quận Sơn Trà bạn có thể tìm kiếm ở đó để có bất động sản phù hợp với bạn.",
+        "Ở Ngũ Hành Sơn tạm thời không có bất động sản là tòa nhà, vui lòng tìm ở các quận khác."
+      ]
+    },
+    {
+      "tag": "nhà trọ",
+      "patterns": [
+        "Tôi muốn tìm nhà trọ ở Hòa Vang.",
+        "Tôi muốn tìm nhà trọ ở Ngũ Hành Sơn.",
+        "Tôi muốn tìm nhà trọ ở Cẩm Lệ.",
+        "Tôi muốn tìm nhà trọ ở Hải Châu.",
+        "Tôi muốn tìm nhà trọ ở Sơn Trà.",
+        "Tôi muốn tìm nhà trọ ở Thanh Khê.",
+        "Tôi muốn tìm nhà trọ ở Sơn Trà."
+      ],
+      "responses": [
+        "Ở Hòa Vang tạm thời không có bất động sản là nhà trọ, vui lòng tìm ở các quận khác.",
+        "Ở Hải Châu tạm thời không có bất động sản là nhà trọ, vui lòng tìm ở các quận khác.",
+        "Có bất động sản là nhà trọ ở các phường Thanh Khê Đông ở quận Thanh Khê bạn có thể tìm kiếm ở đó để có bất động sản phù hợp với bạn.",
+        "Có bất động sản là nhà trọ ở Thanh Vinh 10, phường Hòa Hiệp Bắc ở quận Liên Chiểu bạn có thể tìm kiếm ở đó để có bất động sản phù hợp với bạn.",
+        "Có bất động sản là nhà trọ ở đường Tôn Đản, phường Hòa An ở quận Cẩm Lệ bạn có thể tìm kiếm ở đó để có bất động sản phù hợp với bạn.",
+        "Ở Ngũ Hành Sơn tạm thời không có bất động sản là tòa nhà, vui lòng tìm ở các quận khác."
+      ]
+    }
+  ]
+}
